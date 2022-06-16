@@ -1,0 +1,110 @@
+body{
+    
+    background-color: hsl(0, 0%, 95%);
+}
+
+.wrapper {
+    width: 100%;  
+    max-width: 960px;
+    margin: 100px auto;
+  
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: xx-large;   
+}
+
+p {
+   color: hsla(0, 0%, 100%, 0.75);
+   line-height: 1.5em;
+   font-family: 'Lexend Deca', sans-serif;
+   font-size: x-small;
+}
+
+.flex-container {
+    display: flex;
+}
+.box {
+    height: 350px;
+    width: 150px; 
+    padding: 35px;
+}
+
+.one {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.two {
+    background-color: hsl(184, 100%, 22%);  
+}
+
+.three {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sedan {
+    color: hsl(31, 77%, 52%);
+}
+
+.suv {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+.button {
+    margin-top: 80px;
+    padding: 10px 25px;
+    background-color: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;  
+    font-size: 15px;  
+    font-weight: 400;
+}
+
+.sedan:hover {
+    background-color: hsl(31, 77%, 52%);
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.suv:hover {
+    background-color: hsl(184, 100%, 22%); 
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.luxury:hover {
+    background-color: hsl(179, 100%, 13%); 
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+#header-btn {
+    width: 100%;  
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    background-color: rgb(1, 1, 19);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: x-large;
+}
+
+#header-btn:hover{
+    background-color: hsl(179, 100%, 13%); 
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
